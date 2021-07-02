@@ -1,0 +1,1 @@
+SELECT COUNT(*) "Liczba departamentów", location_id "Kod lokacji" FROM departments GROUP BY location_id ORDER BY  "Liczba departamentów" DESC; 

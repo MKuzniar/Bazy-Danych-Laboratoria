@@ -1,0 +1,1 @@
+SELECT employee_id "Numer pracownika", first_name "Imiê", last_name "Nazwisko", salary "Wyp³ata" , job_id "Kod stanowiska" FROM employees WHERE salary > 3000 AND (job_id LIKE 'ST%' OR job_id LIKE 'SH%') ORDER BY salary ASC ;

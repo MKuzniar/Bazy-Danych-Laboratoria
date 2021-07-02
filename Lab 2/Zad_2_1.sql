@@ -1,0 +1,1 @@
+SELECT DISTINCT job_id "Kod stanowiska", manager_id "Numer kierownika" FROM employees WHERE manager_id BETWEEN 100 AND 102 AND manager_id != 101 ORDER BY manager_id DESC;

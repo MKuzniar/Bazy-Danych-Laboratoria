@@ -1,0 +1,1 @@
+SELECT  COUNT(*) "Liczba pracowników", job_id "Kod stanowiska" FROM employees GROUP BY job_id ORDER BY "Liczba pracowników" DESC;

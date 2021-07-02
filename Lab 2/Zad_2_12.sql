@@ -1,0 +1,1 @@
+SELECT job_id "Kod stanowiska", MIN(salary) "Najmniejsza wyp³ata pracownika", MAX(salary) "Najwiêksza wyp³ata pracownika", AVG(salary) "Œrednia wyp³ata pracownika" FROM employees WHERE salary > 5000 GROUP BY job_id ORDER BY "Najmniejsza wyp³ata pracownika" ASC;

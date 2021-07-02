@@ -1,0 +1,1 @@
+SELECT job_id "Kod stanowiska", AVG(salary)"Œrednia wyp³ata pracownika" FROM employees GROUP BY job_id ORDER BY "Œrednia wyp³ata pracownika" DESC;

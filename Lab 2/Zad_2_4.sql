@@ -1,0 +1,1 @@
+SELECT job_id "Kod stanowiska", job_title "Nazwa stanowiska" FROM jobs WHERE job_title LIKE '% %';

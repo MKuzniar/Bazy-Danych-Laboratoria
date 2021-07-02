@@ -1,0 +1,1 @@
+SELECT first_name "Imiê", last_name "Nazwisko", salary "Wyp³ata" FROM employees WHERE manager_id = 100 AND salary > 10000 ORDER BY salary ASC;

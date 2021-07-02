@@ -1,0 +1,1 @@
+SELECT manager_id "Numer kierownika", MAX(salary) "Najwiêksza wyp³ata pracownika" FROM employees GROUP BY manager_id;

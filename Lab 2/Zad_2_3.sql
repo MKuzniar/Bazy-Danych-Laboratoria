@@ -1,0 +1,1 @@
+SELECT first_name "Imiê", last_name "Nazwisko", job_id "Kod stanowiska", salary "Wyp³ata" FROM employees WHERE job_id LIKE '%_MGR'  ORDER BY salary DESC;
